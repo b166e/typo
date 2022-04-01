@@ -178,7 +178,13 @@ color:white;
   grid-area: main__titulo;
   padding: 50px;
   
+  animation-name: aparecer;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite; 
 
+
+  background-image: linear-gradient(to left, red , yellow)
 
 
 }
@@ -419,11 +425,49 @@ font-size: 1.5rem;
 
 
 
+/* Animaciones para desafio */
 
 
 
+@keyframes aparecer {
+  0%{
+      opacity: 0;
+      border: solid 1px rgba(0, 0, 0, 0);
+  }
+  10%{
+      opacity: 00%;
+  }
+  30%{
+      opacity: 10%;
+  }
+  30%{
+      opacity: 30%;
+  }
+  40%{
+      opacity: 40%;
+  }
+  50%{
+      opacity: 50%;
+  }
+  60%{
+      opacity: 60%;
+  }
+  70%{
+      opacity: 70%;
+  }
+  80%{
+      opacity: 80%;
+  }
+  90%{
+      opacity: 90%;
+  }
+  100%{
+      opacity: 100%;
+      border: solid 1px rgb(0, 0, 0);
+  }
+  
 
-
+}
 
 
 
