@@ -1,0 +1,213 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Raleway', sans-serif;
+}
+body{
+	overflow-x: hidden;
+}
+html{
+	font-size: 62.5%;
+}
+
+
+/* parallax */
+
+.parallax {
+
+
+
+  background-image: url("../assets/img/Background.jpg");
+  height: 200px;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+               
+	/* box modeling */
+	padding: 50px 30px;
+	margin-bottom:50px;
+
+}
+
+.parallax h4 {
+	font-size: 4rem; 
+	text-align: left; 
+	background-color: rgba(255,255,255, 0.7);
+	padding-top: 20px;/*aplicando padding-top*/
+	margin-top: 50px;/*aplicando margin-top*/
+}
+.parallax p {
+	font-size: 2.5rem; 
+	text-align: justify; 
+	background-color: rgba(255,255,255, 0.7);
+	text-transform: capitalize;
+	padding: 10px;/*esta forma le aplica valor al top, bottom, right and left*/
+
+}
+
+h1{font-size: 6rem;}
+p{font-size: 2rem;}
+
+
+
+a {
+
+
+	color:white;
+	text-decoration: none;
+
+} 
+
+
+
+nav {
+	position: relative;
+	bottom: 30px;
+	left: 300px;
+
+
+}
+
+
+.navBackground {
+	background-color: #199988;
+	position: sticky;
+	top: 0px;
+}
+
+
+.footerBackground  {
+	background-color: #434343;
+    height: 200px;
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: center  ;
+    align-content: space-evenly;
+
+
+}
+
+.footerBackground div{
+    width: 100px;
+    height: 100px;
+	font-size: 2rem;
+    margin:0 20px;
+	color:white
+ 
+}
+
+
+
+.Logo {
+	font-family: 'Lobster';
+	font-size: 46px;
+	color:white;
+   
+}
+
+
+.Volver {
+	font-family: 'Lobster';
+	font-size: 46px;
+	
+	color:#434343;
+}
+
+
+
+ th {
+	background-color: #434343;
+	color: white;
+	font-size: 2rem;
+  }
+  td {
+color: #000;
+font-size: 2rem;
+  }
+
+  th,td {
+
+	border: 1px solid;
+	padding: 20px;
+	text-align: left;
+
+}
+
+
+
+
+
+
+
+
+
+
+ul {
+   list-style: none;
+   font-size:0; 
+}
+li {
+   display: inline-block;
+   width: 15%;
+   position:relative;
+   font-size: 2rem;
+}
+ul ul {
+   position: relative;
+   display: none;
+}
+ul ul li {
+   display: block;
+   width:200px;
+   padding: 10px;
+}
+ul ul li a {color: white;}
+ul li:hover ul {
+	position: absolute;
+   display:block;
+   background-color: #434343;
+}
+
+
+.border {
+	border: 1px solid black;
+ }
+
+ .Enviar { grid-area: Enviar; }
+ .Mail { grid-area: Mail; }
+ .nombre { grid-area: nombre; }
+ .terminos { grid-area: terminos; }
+ .Pais { grid-area: Pais; }
+ .textarea { grid-area: textarea; }
+ 
+ .grid-container {
+   display: grid;
+   grid-template-areas:
+  
+   'nombre  nombre  Mail  Mail '
+   'Pais  Pais Pais  Pais'
+   'textarea  textarea textarea  textarea'
+   'textarea  textarea textarea  textarea'
+   'textarea  textarea textarea  textarea'
+   'terminos  terminos terminos  terminos'
+   'Enviar Enviar Enviar Enviar'
+   ;
+ 
+   grid-gap: 10px;
+   background-color: #2196F3;
+   padding: 10px;
+ }
+ 
+ .grid-container > div {
+   background-color: rgba(255, 255, 255, 0.8);
+   text-align: center;
+   padding: 20px 0;
+   font-size: 30px;
+ }
+
+ 
+
+
