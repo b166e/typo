@@ -13,20 +13,6 @@ html{
 
 
 
-.contenedor{
-  display: grid;
-  grid-template-columns: auto auto auto auto ;
-  grid-template-rows: 70px 1fr 1fr 1fr 0.5fr 1fr 200px;
-  grid-template-areas: 
-  "header header header header"
-  "main_img main main main"
-  "parallax parallax parallax parallax"
-  "Video Video Video_youtube Video_youtube"
-  "Separador Separador Separador Separador"
-  "Tabla Tabla Tabla Tabla "
-  "footer footer footer footer";
-
-}
 
 
 
@@ -34,37 +20,22 @@ html{
 
 
 
-.Contactos{
-  display: grid;
-  grid-template-columns: auto auto auto auto ;
-  grid-template-rows: 70px 1fr 200px;
- 
-  grid-template-areas: 
-
-
-    "header header header header"
- 
-    "Separador Separador formulario formulario"
-
-    "footer footer footer footer";
-
-}
 
 .formulario  {
 
 
-grid-area: formulario;
+
 display: flex;
 
 flex-direction:  column;
 justify-content: center;
 
 
-    width: 100%;
-    height: 400px;
-    background-color: #F5500A;
-    font-size: 1rem;
-   
+width: 100%;
+height: 400px;
+background-color: #F5500A;
+font-size: 1rem;
+
 color:white;
 
 }
@@ -76,15 +47,7 @@ color:white;
 
 }
 
-/*
-.Enviar { grid-area: Enviar; }
-.Mail { grid-area: Mail; }
-.nombre { grid-area: nombre; }
-.terminos { grid-area: terminos; }
-.Pais { grid-area: Pais; }
-.textarea { grid-area: textarea; }
 
-*/
 
 
 .navbar-ligh {
@@ -109,7 +72,7 @@ color:white;
 .Logo {
 	font-family: 'Lobster';
   text-decoration: none;
-	font-size: 3rem;
+
 	color:white;
    
 }
@@ -122,7 +85,7 @@ color:white;
 
 }
 
-.navegacion li a{
+.navegacion{
   text-decoration: none;
   color: #ffffff;
 }
@@ -146,11 +109,42 @@ color:white;
   grid-area: main_img;
 
 }
+.form-control {
+
+     border-radius: 0.0rem;
+
+
+}
+
+.form-select {
+
+  border-radius: 0.0rem;
+
+
+}
+.contacto {
+
+
+  padding: 15px;
+}
+
+.Hablenos {
+
+  font-size: 1.5rem;
+   color:white;
+   display: flex;
+  flex-direction:  column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+
 
 .Separador
 {
   
-  grid-area: Separador;
+
   background-color: #F5500A;
   font-size: 3rem;
  
@@ -177,7 +171,7 @@ color:white;
   
   grid-area: main__titulo;
   padding: 50px;
-  
+  /*
   animation-name: aparecer;
   animation-duration: 2s;
   animation-timing-function: linear;
@@ -186,7 +180,7 @@ color:white;
 
   background-image: linear-gradient(to left, red , yellow)
 
-
+*/
 }
 
 .main__parrafo{
@@ -204,20 +198,18 @@ color:white;
 .footer{
 
   background-color: #434343;
-  grid-area: footer;
+
+
+
   display: flex;
-  justify-content: space-evenly;
+  flex-direction:  row;
+  justify-content: space-between;
   align-items: center;
 
+  padding: 100px;
 
 }
 
-.footer a{
-  text-decoration: none;
-  font-size: 1.5rem;
- 
-  color:white
-}
 
 .Video{
   font-size: 1.5rem;
@@ -252,7 +244,62 @@ color:white;
 
 
 
-/* Boostrap */
+/* Boostrap 
+$blue;
+$secondary:     $gray-600;
+$success:       $green;
+$info:          $cyan;
+$warning:       $yellow;
+$danger:        $red;
+$light:         $gray-100;
+$dark:          $gray-900;
+*/
+
+
+.primary  {
+  color: #fff;
+  background-color: #199988;
+  border-color: #199988;
+}
+
+
+.dark {
+
+  color: #fff;
+  background-color: #434343;
+}
+
+
+.darkI {
+
+  color: #434343!important;
+  background-color: #fff;
+}
+
+.warning {
+  color: #fff;
+  background-color: #F5500A;
+  
+
+}
+
+
+
+.img-thumbnail {
+  border-radius: 50%;
+  height: 5%;
+  width: 5%;
+
+}
+
+
+
+
+.intel{
+
+  background-image: url( '/assets/img/intel.svg' );
+
+}
 
 .btn-primary {
   color: #fff;
@@ -294,12 +341,10 @@ color:white;
 
 
 /* Header */
-.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show {
-  color: #fff  ;
-}
 
-.navbar-light .navbar-brand {
-  color: rgba(0,0,0,.9);
+.nav-link {
+
+  color: #fff;
 }
 
 
@@ -307,8 +352,6 @@ color:white;
 
 .parallax {
 
-  grid-area: parallax;
-   
   background-image: url("../assets/img/Background.jpg");
 
   background-attachment: fixed;
@@ -341,17 +384,7 @@ color:white;
 
 
 
-th {
-	background-color: #434343;
-	color: white;
-	font-size: 1.5rem;
-  padding: 1.5rem;
-  }
-  td {
-    padding: 1.7rem;
-color: #000;
-font-size: 1.5rem;
-  }
+
 
   th,td {
     
@@ -372,37 +405,8 @@ font-size: 1.5rem;
 
 
 @media screen and (max-width: 480px){
-  .contenedor{
-      grid-template-columns: 1fr;
-      grid-template-rows: 0.5fr 0.5fr 0.5fr;
-      grid-template-areas: 
-      "header"
-      "main_img"
-      "main"
-      "Video"
-      "Video_youtube"
-      "parallax"
-      "Separador"
-      "Tabla"
-      "footer";
-  }
 
 
-
-  .Contactos{
-    grid-template-columns: 1fr;
-    grid-template-rows: 0.5fr 0.5fr 0.5fr;
-
-   
-    grid-template-areas: 
-  
-  
-      "header"
-      "Separador"
-      "formulario" 
-      "footer";
-  
-  }
 
 
 
