@@ -40,7 +40,7 @@
         <a class="navbar-brand Logo " href="#">typo</a>
       
 
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler navbar-toggler-icon" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse  " id="navbarCollapse">
@@ -89,11 +89,7 @@
       </div>
       <div class="carousel-item">
    
-          <section class="parallax">
-            <h4>Inteligencia Comercial</h4>
-  
-          </section>
-     
+ 
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
@@ -118,10 +114,12 @@
 
 
     <hr class="featurette-divider">
-    <div class="row featurette">
-      <div class="col-md-7">
-        <h2 class="featurette-heading">Líder en el mercado de Visual Analytics </h2>
-        <p class="lead">Con sede central en Radnor, Pennsylvania, Qlik tiene oficinas en todo el mundo, con más de 1.700 socios que cubren más de 100 países.</p>
+
+    
+    <div class="row text-center  d-flex  align-items-center justify-content-center">
+      <div class="col">
+        <h2 class="">Líder en el mercado de Visual Analytics </h2>
+        <p class="">Con sede central en Radnor, Pennsylvania, Qlik tiene oficinas en todo el mundo, con más de 1.700 socios que cubren más de 100 países.</p>
         <ul>
           <li
           
@@ -132,7 +130,7 @@
           ></ul>
       
       </div>
-      <div class="col-md-5">
+      <div class="col text-center">
         <img src="assets/img/logo.jpg" alt="Qlik Sense"  />
     
       </div>
@@ -141,10 +139,52 @@
     <hr class="featurette-divider">
     
                                 
+ 
 
     <hr class="my-4">
 
-    <div class="row row-cols-1 row-cols-md-2 mb-2 text-center">
+
+
+
+
+  </div><!-- /.container -->
+
+
+
+    <div class="warning">
+
+      <div class="row padding ">
+        <div class="col d-flex justify-content-around">
+          <div class="d-flex justify-content-center align-items-center flex-column">
+
+            <h4>Qlik Sense</h4>
+            <p>Plataforma de Explotación de Datos</p>
+          </div>
+    
+        
+        </div>
+          <div class="col  d-flex justify-content-start">
+            <form>
+              <h5>Suscribite a nuestro newsletter</h5>
+              <p>Notificaciones e informes mensuales.</p>
+              <div class="d-flex w-100 gap-2">
+                <label for="newsletter1" class="visually-hidden">tu@email.com</label>
+                <input id="newsletter1" type="text" class="form-control" placeholder="tu@email.com">
+                <button class="btn btn-primary" type="button">Suscribir</button>
+              </div>
+            </form>
+          </div>
+
+      </div>
+      
+
+      
+
+  </div>
+
+  <div class="container">
+
+    <div class="row row-cols-1 row-cols-md-2 mb-2 text-center padding">
       <div class="col">
         <div class="card mb-4 rounded-3 shadow-sm">
           <div class="card-header py-3">
@@ -154,10 +194,8 @@
             <h1 class="card-title pricing-card-title">$30<small class="text-muted fw-light"></small></h1>
             <ul class="list-unstyled mt-3 mb-4">
               <li class="text-muted fw-light">USD/user/month.</li>
-              <li>2 GB of storage</li>
-              <li>Email support</li>
-              <li>Help center access</li>
-            </ul>
+          
+               </ul>
             <button type="button" class="w-100 btn btn-lg btn-outline-primary">Prueba Gratis</button>
           </div>
         </div>
@@ -186,139 +224,138 @@
       </div>
 
     </div>
- 
-          
-    <div class="row dark">
 
 
-      <section class="col Hablenos">
-        <h4>HABLENOS</h4>
-        <p>¿Interesado en
-            potenciar tu negocio? </p>
-      </section>
-      <div class="col contacto">
-        <h4 class="mb-3">Contacto</h4>
-        <hr class="my-4">
-        <form class="needs-validation" novalidate="">
-          <div class="row g-3">
-            <div class="col-sm-6">
-              <label for="firstName" class="form-label">Nombre</label>
-              <input type="text" class="form-control" id="firstName" placeholder="" value="" required="">
-              <div class="invalid-feedback">
-                Indique su nombre.
-              </div>
+    
+       <!-- FORMULARIO -->     
+  <div class="row row-cols-1 row-cols-md-2 mb-2 text-center dark">
+
+
+    <section class="col Hablenos  ">
+      <h4>HABLENOS</h4>
+      <p>¿Interesado en
+          potenciar tu negocio? </p>
+    </section>
+    <div class="col contacto">
+      <h4 class="mb-3">Contacto</h4>
+      <hr class="my-4">
+      <form class="needs-validation" novalidate="">
+        <div class="row g-3">
+          <div class="col-sm-6">
+            <label for="firstName" class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="firstName" placeholder="" value="" required="">
+            <div class="invalid-feedback">
+              Indique su nombre.
             </div>
-
-            <div class="col-sm-6">
-              <label for="lastName" class="form-label">Apellido</label>
-              <input type="text" class="form-control" id="lastName" placeholder="" value="" required="">
-              <div class="invalid-feedback">
-                Indique su apellido.
-              </div>
-            </div>
-
-
-            <div class="col-12">
-              <label for="email" class="form-label">Email </label>
-              <input type="email" class="form-control" id="email" placeholder="tumail@ejemplo.com">
-              <div class="invalid-feedback">
-                Por favor indique su email.
-              </div>
-            </div>
-
-
-            <div class="col-12">
-              <label for="country" class="form-label">Pais</label>
-              <select class="form-select" id="country" required="">
-                <option value="">Seleccione...</option>
-                <option value="arg">Argentina</option>
-                <option value="chi">Chile</option>
-                <option value="uru">Uruguay</option>
-              </select>
-              
-            </div>
-
-              <div class="invalid-feedback">
-                Acepta los terminos y condiciones.
-              </div>
-            </div>
-            <hr class="my-4">
-            <div class="form-check">
-
-              <input type="checkbox" class="form-check-input" id="save-info">
-              
-              <label class="form-check-label" for="save-info"> Acepta los terminos y condiciones.</label>
-            </div>
-  
-            <hr class="my-4">
-            <button class="w-100 btn btn-primary btn-lg" type="submit">Enviar formulario</button>
           </div>
 
-        
-
-
-         
-
-
-
-         
-
-        </form>
-
-        
-      </div>
-
-
-
-    
-
-
-  </div><!-- /.container -->
-
-  <div class="Separador">
-
-    <div class="row">
-      <div class="col"><h4>Qlik Sense</h4>
-        <p>Plataforma de Explotación de Datos</p></div>
-        <div class="col">
-          <form>
-            <h5>Suscribite a nuestro newsletter</h5>
-            <p>Notificaciones e informes mensuales.</p>
-            <div class="d-flex w-100 gap-2">
-              <label for="newsletter1" class="visually-hidden">Email address</label>
-              <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
-              <button class="btn btn-primary" type="button">Subscribe</button>
+          <div class="col-sm-6">
+            <label for="lastName" class="form-label">Apellido</label>
+            <input type="text" class="form-control" id="lastName" placeholder="" value="" required="">
+            <div class="invalid-feedback">
+              Indique su apellido.
             </div>
-          </form>
+          </div>
+
+
+          <div class="col-12">
+            <label for="email" class="form-label">Email </label>
+            <input type="email" class="form-control" id="email" placeholder="tumail@ejemplo.com">
+            <div class="invalid-feedback">
+              Por favor indique su email.
+            </div>
+          </div>
+
+
+          <div class="col-12">
+            <label for="country" class="form-label">Pais</label>
+            <select class="form-select" id="country" required="">
+              <option value="">Seleccione...</option>
+              <option value="arg">Argentina</option>
+              <option value="chi">Chile</option>
+              <option value="uru">Uruguay</option>
+            </select>
+            
+          </div>
+
+            <div class="invalid-feedback">
+              Acepta los terminos y condiciones.
+            </div>
+          </div>
+          <hr class="my-4">
+          <div class="form-check">
+
+            <input type="checkbox" class="form-check-input" id="save-info">
+            
+            <label class="form-check-label" for="save-info"> Acepta los terminos y condiciones.</label>
+          </div>
+
+          <hr class="my-4">
+          <button class="w-100 btn btn-primary btn-lg" type="submit">Enviar formulario</button>
         </div>
 
+      
+
+
+       
+
+
+
+       
+
+      </form>
+
+      
     </div>
-    
+
+ 
+  </div>
 
     
+  <section class="parallax">
+    <h4>Inteligencia Comercial</h4>
 
-</div>
+  </section>
 
-  <!-- FOOTER -->
-  <footer class=" footer ">
-  
-    <div class="row">
-      <div class="col"><h4>Qlik Sense</h4>
-        <p>Plataforma de Explotación de Datos</p></div>
-        <div class="col">
-     
-            <h5>Subscribe to our newsletter</h5>
-  
+
+
+
+
+    <!-- FOOTER -->
+    <footer class=" footer ">
+    
+      <div class="row text-center">
+        <div class="col align-items-center">
+          
+          <a class="navbar-brand Logo d-flex  align-items-center justify-content-center  " href="#">typo</a>
+        
+        </div>
+          <div class="col d-flex  align-items-center justify-content-center">
+      
+              <h5>Santa Fe - Argentina</h5>
+    
+          </div>
+
+          <div class="col d-flex  align-items-center justify-content-center">
+              
+            <div class="d-flex text-center align-items-end flex-column" >
+              <div class="p-2">0800-666-300</div>
+              <div class="p-2">Contáctenos</div>
+          
+            </div>
+
+
+
         </div>
 
-    </div>
+      </div>
+      
+      
+      
     
     
     
-  
-  
-  
-  </footer>
+    </footer>
   
  
 
