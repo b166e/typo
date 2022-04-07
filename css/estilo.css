@@ -222,7 +222,7 @@ $dark:          $gray-900;
 }
 
 .intel {
-  background-image: url("/assets/img/intel.svg");
+  background-image: url("assets/img/");
 }
 
 
@@ -274,7 +274,7 @@ $dark:          $gray-900;
 /* parallax */
 
 .parallax {
-  background-image: url("../assets/img/Background.jpg");
+  background-image: url("assets/img/Background.jpg");
 
   background-attachment: fixed;
   background-position: center;
