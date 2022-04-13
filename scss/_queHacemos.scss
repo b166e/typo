@@ -1,0 +1,17 @@
+
+.Video {
+    font-size: 1.5rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Video_youtube {
+    grid-area: Video_youtube;
+
+    flex-direction: column;
+    width: 100%;
+    height: 450px;
+}

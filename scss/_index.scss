@@ -1,0 +1,276 @@
+$ColorPrincial:#199988;
+$ColorContraste:#f5500a;
+$ColorDark:#434343;
+$ColorBlanco:white;
+
+
+
+
+.header {
+    color: white;
+    background-color: $ColorPrincial;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    grid-area: header;
+}
+
+.Logo {
+    font-family: "Lobster";
+    text-decoration: none;
+
+    color: white;
+}
+
+
+
+
+.footer {
+    background-color: $ColorDark;
+    font-size: 1.5rem;
+    color: #8C8C8C;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 100px;
+
+    .Logo {
+
+
+
+        color: #8C8C8C;
+        font-size: 5rem;
+    }
+
+
+
+
+}
+
+
+
+.navegacion {
+    text-decoration: none;
+    color: #ffffff;
+
+
+    li {
+        list-style-type: none;
+        display: inline-block;
+        padding-right: 10px;
+        font-size: 1.2rem;
+    }
+
+
+}
+
+.main {
+    background-color: white;
+    font-size: 1.2rem;
+    grid-area: main;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.main_img {
+    grid-area: main_img;
+}
+
+.form-control {
+    border-radius: 0rem;
+}
+
+.form-select {
+    border-radius: 0rem;
+}
+
+.contacto {
+    padding: 15px;
+}
+
+
+
+
+
+.Separador {
+    background-color: $ColorContraste;
+    font-size: 3rem;
+
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+
+    p {
+        font-size: 1rem;
+    }
+
+
+}
+
+.padding {
+    padding: 50px;
+}
+
+
+
+
+
+.primary {
+    color: #fff;
+    background-color: $ColorPrincial;
+    border-color: $ColorPrincial;
+}
+
+.dark {
+    color: #fff;
+    background-color: $ColorDark;
+}
+
+.darkI {
+    color: $ColorDark !important;
+    background-color: #fff;
+}
+
+.warning {
+    color: #fff;
+    background-color: $ColorContraste;
+}
+
+.navbar-toggler {
+    color: #fff;
+    background-color: $ColorContraste;
+
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: $ColorPrincial;
+    border-color: $ColorPrincial;
+    border-radius: 0rem;
+
+
+    &:hover {
+        background-color: $ColorDark;
+        border-color: $ColorDark;
+
+    }
+}
+
+.border-primary {
+    border-color: $ColorPrincial;
+}
+
+.btn-outline-primary {
+    color: $ColorPrincial;
+    background-color: #fff;
+    border-color: $ColorPrincial;
+
+    &:hover {
+        color: #fff;
+        background-color: $ColorPrincial;
+        border-color: $ColorPrincial;
+    }
+}
+
+.btn-outline-primary {
+
+    .rounded-3 {
+        border-radius: 0rem !important;
+    }
+
+}
+
+
+
+
+.btn-lg {
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+    border-radius: 0rem;
+
+    &:hover {
+        background-color: $ColorDark
+    }
+}
+
+
+/* Header */
+
+.nav-link {
+    color: #fff;
+
+    &:hover {
+        color: $ColorContraste;
+    }
+}
+
+
+.carousel-control-prev  {
+
+    background-color: $ColorDark;
+
+}
+
+.carousel-control-next{
+
+    background-color: $ColorDark;
+
+}
+
+.carousel-item {
+
+
+    .imagenCarousel {
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+    
+
+    }
+
+
+   
+    
+
+}
+
+
+
+
+/* parallax */
+
+.parallax {
+    background-image: url("../assets/img/Background.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 30px;
+ 
+
+    h4 {
+        font-size: 4rem;
+        text-align: center;
+     
+        background-color: rgba(255, 255, 255, 0.5);
+        padding-top: 50px;
+        color: white;
+        margin-top: 50px;
+    
+    }
+
+    p {
+        font-size: 2.5rem;
+        text-align: justify;
+        background-color: rgba(255, 255, 255, 0.7);
+        text-transform: capitalize;
+        padding: 10px;
+        /*esta forma le aplica valor al top, bottom, right and left*/
+    }
+}

@@ -1,0 +1,15 @@
+@media screen and (max-width: 480px) {
+    .header {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .main {
+        flex-wrap: wrap;
+    }
+
+    .footer {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
