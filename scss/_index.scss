@@ -6,6 +6,40 @@ $ColorBlanco:white;
 
 
 
+$redes: (twitter: #55acee,
+    facebook: #3a5795,
+    send-mail: $ColorContraste);
+
+
+
+
+
+@each $red,
+$color in $redes {
+    .btn--#{$red} {
+        color: $color;
+        width: 30px;
+        height: 30px
+    }
+}
+
+
+
+.Facebook {
+    background-color: map-get($redes, facebook);
+    color: white;
+    font-size: 1.5rem;
+}
+
+
+
+
+
+
+
+
+
+
 .header {
     color: white;
     background-color: $ColorPrincial;
@@ -23,15 +57,21 @@ $ColorBlanco:white;
 }
 
 
-
-
-.footer {
-    background-color: $ColorDark;
-    font-size: 1.5rem;
-    color: #8C8C8C;
+@mixin flex {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+}
+
+
+
+
+.footer {
+    @include flex();
+    background-color: $ColorDark;
+    font-size: 1.5rem;
+    color: #8C8C8C;
+
     padding: 100px;
 
     .Logo {
@@ -148,12 +188,22 @@ $ColorBlanco:white;
 
 }
 
-.btn-primary {
-    color: #fff;
+
+
+
+.boton {
+
     background-color: $ColorPrincial;
     border-color: $ColorPrincial;
     border-radius: 0rem;
 
+
+}
+
+
+.btn-primary {
+    @extend .boton;
+    color: #fff;
 
     &:hover {
         background-color: $ColorDark;
@@ -162,14 +212,17 @@ $ColorBlanco:white;
     }
 }
 
+
 .border-primary {
-    border-color: $ColorPrincial;
+    @extend .boton;
 }
 
+
+
 .btn-outline-primary {
-    color: $ColorPrincial;
+    @extend .boton;
     background-color: #fff;
-    border-color: $ColorPrincial;
+
 
     &:hover {
         color: #fff;
@@ -185,6 +238,8 @@ $ColorBlanco:white;
     }
 
 }
+
+
 
 
 
@@ -211,13 +266,13 @@ $ColorBlanco:white;
 }
 
 
-.carousel-control-prev  {
+.carousel-control-prev {
 
     background-color: $ColorDark;
 
 }
 
-.carousel-control-next{
+.carousel-control-next {
 
     background-color: $ColorDark;
 
@@ -230,13 +285,13 @@ $ColorBlanco:white;
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
-    
+
 
     }
 
 
-   
-    
+
+
 
 }
 
@@ -252,17 +307,17 @@ $ColorBlanco:white;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 50px 30px;
- 
+
 
     h4 {
         font-size: 4rem;
         text-align: center;
-     
+
         background-color: rgba(255, 255, 255, 0.5);
         padding-top: 50px;
         color: white;
         margin-top: 50px;
-    
+
     }
 
     p {
