@@ -1,25 +1,20 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Big Data, WebScrapping , Reportes de oferta y demanda, cuantificación de mercado">
+  <meta name="keywords" content="Big Data, Consultria, SQL, Qlik Sense, Qlik view Power BI, Saas">
+  <link rel="shortcut icon" href="assets/img/favicon-32x32.png" />
+  <title>Typo</title>
 
-    <meta name="Consultoría en Big Data," content="Big Data, WebScrapping , Reportes de oferta y demanda, cuantificación de mercado">
-    <meta name="keywords"  content="Big Data, Consultria, SQL, Qlik Sense, Qlik view Power BI, Saas">
-
-
-    <link rel="shortcut icon" href="assets/img/favicon-32x32.png" />
-    <title>Typo</title>
-
-
-
-    <!-- PRIMERO LINKS DE BOOTSTRAP -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous"></script>
+  <!-- PRIMERO LINKS DE BOOTSTRAP -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
 
 
   <link rel="stylesheet" href="css/style.css" />
@@ -27,10 +22,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
     href="https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@300;400&family=Raleway:wght@600&display=swap"
-    rel="stylesheet"
-  />
-
-
+    rel="stylesheet" />
 
 
 </head>
@@ -38,210 +30,520 @@
 <body>
 
   <header>
-    <nav class="navbar navbar-expand-md  fixed-top primary" >
-
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top primary">
       <div class="container-fluid">
-
-        <a class="navbar-brand Logo " href="#">typo</a>
-      
-
-        <button class="navbar-toggler navbar-toggler-icon" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand Logo" href="#">typo</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+          aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse  " id="navbarCollapse">
-          <ul class="navbar-nav me-auto mb-2 mb-md-0 navegacion">
-        
-    
-            <li  class="nav-item "><a class="nav-link "  href="index.html"> Inicio</a></li>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+
+            <li class="nav-item  "><a class="nav-link active" href="index.html"> Inicio</a></li>
             <li class="nav-item">
-              <a class="nav-link "  href="paginas/servicioYsoluciones.html">Servicios y soluciones</a          
-              >
+              <a class="nav-link active " href="paginas/servicioYsoluciones.html">Servicios y soluciones</a>
             </li>
-            <li  class="nav-item"><a class="nav-link "  href="paginas/queHacemos.html"> ¿Qué hacemos? </a></li>
-            <li class="nav-item"><a class="nav-link "  href="paginas/nosotros.html"> Nosotros </a></li>
-            <li class="nav-item"><a class="nav-link active"  href="paginas/contactos.html"> Contactos </a></li>
-            <li class="nav-item"><a  class="nav-link " href="paginas/clientes.html"> Clientes </a></li>
-          </form>
+            <li class="nav-item"><a class="nav-link active" href="paginas/queHacemos.html"> ¿Qué hacemos? </a></li>
+            <li class="nav-item"><a class="nav-link active" href="paginas/nosotros.html"> Nosotros </a></li>
+            <li class="nav-item"><a class="nav-link active" href="paginas/contactos.html"> Contactos </a></li>
+            <li class="nav-item"><a class="nav-link active" href="paginas/clientes.html"> Clientes </a></li>
+
+
+
+            </li>
+          </ul>
+
         </div>
       </div>
     </nav>
   </header>
 
-
-
-<main>
-
+  <main>
 
 
 
-  
-<!-- Descipción-->
+    <!-- subheader. -->
 
+    <div class="subHeader">
 
-
-
-  
-  <div class="container">
-
-
-  
-
-
-
-    <hr class="featurette-divider">
-
-    
-    <div class="row text-center  d-flex  align-items-center justify-content-center">
-      <div class="col">
-        <h2 class="">Líder en el mercado de Visual Analytics </h2>
-        <p class="">Con sede central en Radnor, Pennsylvania, Qlik tiene oficinas en todo el mundo, con más de 1.700 socios que cubren más de 100 países.</p>
-        <ul>
-          <li
-          
-          >Más de 50.000 clientes confían en las soluciones Qlik para entender el significado de la información de diversas fuentes, la exploración de las relaciones ocultas dentro de los datos que conducen al descubrimiento de insights.</li
-        
-        
-        
-          ></ul>
       
-      </div>
-      <div class="col text-center">
-        <img class="img-fluid" src="assets/img/logo.jpg" alt="Qlik Sense"  />
-    
-      </div>
     </div>
-    
-    <hr class="featurette-divider">
-    
-                                
- 
 
-    <hr class="my-4">
+    <div class="container ">
 
 
 
 
-
-  </div><!-- /.container -->
-
-  
+      <!-- Descripción -->
 
 
 
-  <div id="carousel" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    </div>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="assets/img/Background_2.jpg" class="d-block imagenCarousel w-100 " alt="...">
-      </div>
-      <div class="carousel-item">
-        <img src="assets/img/Background_3.jpg" class="d-block imagenCarousel w-100  " alt="...">
+      <div class="padding-1"></div>
 
-      </div>
-      <div class="carousel-item">
-        <img src="assets/img/Background_4.jpg" class="d-block imagenCarousel w-100 " alt="...">
-
-      </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Anterior</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Siguiente</span>
-    </button>
-  </div>
-
-
-    <div class="warning">
-
-      <div class="row padding ">
-        <div class="col d-flex justify-content-around">
-          <div class="d-flex justify-content-center align-items-center flex-column">
-
-            <h4>Qlik Sense</h4>
-            <p>Plataforma de Explotación de Datos</p>
-          </div>
-    
-        
+      <div class="row featurette">
+        <div class="col-md-7 padding-1">
+          <h2>Por qué elegirnos</h2>
+          <p>Nuestra amplia experiencia profesional asesorando a pequeñas y medianas empresas, mediante:</p>
+          <ul>
+            <li>Conocimientos profundos en diversas industrias.</li>
+            <li>Utilización de tecnología avanzada y mejores prácticas.</li>
+            <li>Flexibilidad y capacidad para anticiparnos a las necesidades de nuestros clientes.</li>
+            <li>Compromiso con nuestros clientes.</li>
+          </ul>
+          <p>Contamos con recursos especializados en diversas disciplinas e industrias destinadas&nbsp;a ofrecer un
+            asesoramiento integral, flexible y a la medida de tus necesidades. Privilegiamos el contacto fluido y
+            personal con nuestros clientes acompañándolos en su crecimiento en el mediano y largo plazo.</p>
         </div>
-          <div class="col  d-flex justify-content-start">
-            <form>
-              <h5>Suscribite a nuestro newsletter</h5>
-              <p>Notificaciones e informes mensuales.</p>
-              <div class="d-flex w-100 gap-2">
-                <label for="newsletter1" class="visually-hidden">tu@email.com</label>
-                <input id="newsletter1" type="text" class="form-control" placeholder="tu@email.com">
-                <button class="btn btn-primary" type="button">Suscribir</button>
+        <div class="col-md-5">
+          <img class="img-fluid h-100" src="assets/img/Qlik-img-3.jpg" alt="Qlik Sense" />
+        </div>
+      </div>
+
+      <hr class="featurette-divider ">
+
+      <div class="row featurette">
+        <div class="col-md-7 order-md-2 padding-1">
+          <h2>Realice una previsión más exacta con una visión clara de todo el ciclo de ventas</h2>
+          <p>Para obtener una mejor previsión de ventas y gestión de las oportunidades, los equipos de ventas necesitan
+            una mayor visibilidad de todo el proceso de ventas, de principio a fin. Al sacar provecho de los análisis de
+            datos de tendencias que combinan datos de ventas, marketing y financieros, obtiene el contexto que necesita
+            para planificar el futuro con total seguridad.</p>
+            <p><a class="btn btn-lg btn-primary" href="#">Ver vídeo</a></p>
+
+        </div>
+        <div class="col-md-5 order-md-1">
+          <img class="img-fluid" src="assets/img/Qlik-img-7.jpg" alt="Qlik Sense" />
+        </div>
+      </div>
+
+
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7 padding-1">
+
+          <h2>Analice los datos de CRM con nuevas formas de manera eficaz con la mejor experiencia de analítica</h2>
+          <p>A menudo, los informes CRM no pueden responder a sus preguntas o presentar datos en el contexto que
+            necesita. La experiencia de analítica dinámica de Qlik le permite explorar los datos de CRM en cualquier
+            dirección y dimensión con gran rapidez, para poder así responder a más preguntas y descubrir conocimientos
+            ocultos.</p>
+
+
+
+
+        </div>
+
+        <div class="col-md-5 ">
+          <img class="img-fluid" src="assets/img/Qlik-img-8.jpg" alt="Qlik Sense" />
+        </div>
+      </div>
+      <hr class="featurette-divider">
+      <div class="row">
+        <div class="col-lg-4 padding-1">
+          <img class="img-fluid" src="assets/img/Qlik-img.jpg" alt="Qlik Sense" />
+          <h2>Obtenga un conocimiento más profundo de los datos de venta</h2>
+          <p>Descubra de qué forma Qlik puede ofrecer un análisis potente y sencillo sobre datos de ventas, presupuesto
+            y márgenes con el fin de ayudar a su empresa a crear operaciones de venta más eficaces y con mayor éxito./p>
+        
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4 padding-1">
+          <img class="img-fluid " src="assets/img/Qlik-img-6.jpg" alt="Qlik Sense" />
+          <h2>Entienda los patrones de compra omnicanal</h2>
+          <p>Qlik elimina los silos de datos del comercio minorista y le ayuda a entender las relaciones entre los datos
+            de las ventas, las devoluciones y los clientes en todos los canales (establecimiento minorista, comercio
+            electrónico, centro de llamadas, app y catálogo) para que pueda mejorar el análisis de las preferencias de
+            consumo y el impacto del marketing.</p>
+     
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4 padding-1">
+
+          <img class="img-fluid " src="assets/img/Qlik-img-2.jpg" alt="Qlik Sense" />
+          <h2>Optimice la inversión y las decisiones mixtas</h2>
+          <p>Utilice la analítica de bucle cerrado y la atribución multitáctil para optimizar el presupuesto y la
+            inversión de recursos en los canales.</p>
+            <p><a class="w-100 btn btn-lg btn-primary" href="#">Ver vídeo</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div>
+
+      <hr class="featurette-divider">
+
+
+
+      <!-- /Servicios y Soluciones -->
+      <div class="container">
+
+        <div class="row row-cols-1 row-cols-md-2 mb-2 text-center padding">
+          <div class="col padding-1">
+            <div class="card mb-4 rounded-3 shadow-sm">
+              <div class="card-header py-3">
+                <h4 class="my-0 fw-normal">Qlik Sense® Business</h4>
               </div>
-            </form>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title">$30<small class="text-muted fw-light"></small></h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li class="text-muted fw-light">USD/user/month.</li>
+
+                </ul>
+                <button type="button" class="w-100 btn btn-lg btn-outline-primary">Prueba Gratis</button>
+              </div>
+            </div>
           </div>
+          <div class="col padding-1">
+            <div class="card mb-4 rounded-3 shadow-sm">
+              <div class="card-header py-3">
+                <h4 class="my-0 fw-normal">Qlik Sense® Enterprise SaaS </h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title">Contactar con Ventas<small
+                    class="text-muted fw-light"></small>
+                </h1>
+                <p class="card-title pricing-card-title">Solución en la nube para escalar y ampliar los análisis entre
+                  departamentos y organizaciones<small class="text-muted fw-light"></small></p>
+
+                <button type="button" class="w-100 btn btn-lg btn-primary">Contáctenos</button>
+                <ul class="list mt-3 mb-4 text-sm-left">
+                  <li>El mejor análisis moderno de su clase</li>
+                  <li>Motor asociativo</li>
+                  <li>Análisis aumentado</li>
+                  <li>Gobernanza empresarial</li>
+                  <li>Mayor capacidad</li>
+                  <li>Múltiples tipos de usuarios</li>
+                </ul>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+
+
+
+
 
       </div>
-      
 
-      
 
-  </div>
 
-  <div class="container">
 
-    <div class="row row-cols-1 row-cols-md-2 mb-2 text-center padding">
-      <div class="col">
-        <div class="card mb-4 rounded-3 shadow-sm">
-          <div class="card-header py-3">
-            <h4 class="my-0 fw-normal">Qlik Sense® Business</h4>
-          </div>
-          <div class="card-body">
-            <h1 class="card-title pricing-card-title">$30<small class="text-muted fw-light"></small></h1>
-            <ul class="list-unstyled mt-3 mb-4">
-              <li class="text-muted fw-light">USD/user/month.</li>
-          
-               </ul>
-            <button type="button" class="w-100 btn btn-lg btn-outline-primary">Prueba Gratis</button>
-          </div>
+
+    </div><!-- /.container -->
+
+    
+
+
+    <!--Nosotros-->
+
+    <div class="container">
+
+ 
+
+    <div class="featurette ">
+
+
+
+
+      <h1>Nosotros</h1>
+
+      <p>Ayudamos a las empresas a explotar su potencial en la era digital y a transformar lo que hacen y cómo lo
+        hacen.
+      </p>
+      <p> Ayudamos a construir ventajas competitivas sostenibles identificando áreas en las que hay que invertir o
+        racionalizar, desarrollando una agenda transformadora de la estructura de costos a lo largo de toda la cadena
+        de valor e implantando un modelo organizativo coherente con el crecimiento rentable.</p>
+
+
+      <div class="row">
+        <div class="col-md-7 primary nosotros padding ">
+          <h1>Somos una red de firmas presente en Argentina omprometidos a brindar servicios de calidad en auditoría,
+            consultoría y outsourcing.</h1>
+        </div>
+        <div class="col-md-5 primary"> <img class="img-fluid" src="assets/img/Qlik-img-5.jpg" alt="Qlik Sense" />
+        </div>
+
+      </div>
+
+      <div class="row darkI nosotros">
+        <div class="col-md-12 mapa ">
+          <h3><strong>Nuestro propósito es construir confianza en la sociedad y resolver problemas importantes
+            </strong>, basado en valores que son nuestros pilares: actuamos con integridad, trabajamos juntos,
+            reimaginamos lo posible, nos interesamos, hacemos la diferencia.</h3>
+        </div>
+
+
+      </div>
+
+      <div class="row darkI mapa">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3397.107182131442!2d-60.6934293851513!3d-31.630915613825806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b5a9ecb9e3185d%3A0x7af8f05ee495fc39!2sSarmiento%204240%2C%20S3002%20Santa%20Fe!5e0!3m2!1ses-419!2sar!4v1647991095050!5m2!1ses-419!2sar"
+          class=" w-100 h-100" loading="lazy"></iframe>
+      </div>
+
+
+
+
+
+    </div>
+
+    <div class="container darkII ">
+    </div>
+
+
+
+      <!-- Nosotros -->
+  
+    
+  
+      <h1>Nuestros Clientes</h1>
+  
+      <div class="container padding darkII background_PNG ">
+  
+        <div class="row">
+          <div class="col-lg-4">
+            <img class="rounded-circle"
+              src="assets/img/amd.png"
+             >
+            <h2>AMD</h2>
+            <p>Advanced Micro Devices, Inc. es una compañía estadounidense de semiconductores </p>
+            <p><a class="w-50 btn btn-lg btn-primary " href="#" role="button">ver más</a></p>
+   
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <img class="rounded-circle"
+              src="assets/img/epson.png"
+              alt="Generic placeholder image" width="140" height="140">
+            <h2>Epson</h2>
+            <p>Seiko Epson Corporation o Epson, es una compañía japonesa y uno de los mayores fabricantes del mundo de impresoras de inyección de tinta </p>
+            <p><a class="w-50 btn btn-lg btn-primary" href="#" role="button">ver más</a></p>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <img class="rounded-circle"
+              src="assets/img/gigabyte.png"
+              alt="Generic placeholder image" width="140" height="140">
+            <h2>Gigabyte</h2>
+            <p>Gigabyte Technology es una empresa fabricante de hardware con sede en Taiwán, más conocida por sus placas base.</p>
+            <p><a class="w-50 btn btn-lg btn-primary" href="#" role="button">ver más</a></p>
+          </div><!-- /.col-lg-4 -->
         </div>
       </div>
-      <div class="col">
-        <div class="card mb-4 rounded-3 shadow-sm">
-          <div class="card-header py-3">
-            <h4 class="my-0 fw-normal">Qlik Sense® Enterprise SaaS </h4>
-          </div>
-          <div class="card-body">
-            <h1 class="card-title pricing-card-title">Contactar con Ventas<small class="text-muted fw-light"></small></h1>
-            <p class="card-title pricing-card-title">Solución en la nube para escalar y ampliar los análisis entre departamentos y organizaciones<small class="text-muted fw-light"></small></p>
-            
-            <button type="button" class="w-100 btn btn-lg btn-primary">Contáctenos</button>
-            <ul class="list-unstyled mt-3 mb-4">
-              <li>El mejor análisis moderno de su clase</li>
-              <li>Motor asociativo</li>
-              <li>Análisis aumentado</li>
-              <li>Gobernanza empresarial</li>
-              <li>Mayor capacidad</li>
-              <li>Múltiples tipos de usuarios</li>
-            </ul>
-        
-          </div>
+  
+  
+    </div>
+    </div>
+  
+  
+
+
+
+    <div class="row featurette warning padding  ">
+      <div class="col-md-6">
+
+        <img class="img-fluid " src="assets/img/Qlik-logo.png" alt="Qlik Sense" />
+        <h4>Plataforma de Explotación de Datos</h4>
+
+      </div>
+      <div class="col-md-6">
+
+
+        <h5>Suscribite a nuestro newsletter</h5>
+        <p>Notificaciones e informes mensuales.</p>
+        <div class="d-flex w-100 gap-2">
+          <label for="newsletter1" class="visually-hidden">tu@email.com</label>
+          <input id="newsletter1" type="text" class="form-control" placeholder="tu@email.com">
+          <button class="btn btn-primary" type="button">Suscribir</button>
         </div>
       </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <!-- Que hacemos -->
+
+      <div class="container">
+      
+        <div class="featurette ">
+
+
+
+
+
+
+
+          <h1>¿Qué hacemos?</h1>
+
+          <p>Ayudamos a las empresas a explotar su potencial en la era digital y a transformar lo que hacen y cómo lo hacen.
+          </p>
+          <p> Ayudamos a construir ventajas competitivas sostenibles identificando áreas en las que hay que invertir o
+            racionalizar, desarrollando una agenda transformadora de la estructura de costos a lo largo de toda la cadena de
+            valor e implantando un modelo organizativo coherente con el crecimiento rentable.</p>
+
+
+          <div class="row">
+            <div class="col-md-4 primary">
+              <h1>Estrategia de transformación digital <BR>(Front y Back Office)</h1>
+            </div>
+            <div class="col-md-4 dark">
+              <h1> Estrategia, diseño e Implementación de plataformas digitales / tecnologías móviles</h1>
+            </div>
+            <div class="col-md-4 warning">
+              <h1> Análisis de Campañas, medición y testing <BR>(AB & MVT)</h1>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-4 dark">
+              <h1>Nuevas tecnologías (Apps , APIs , Cloud, BlockChain, etc)</h1>
+            </div>
+            <div class="col-md-4 warning">
+              <h1>Big Data : Qlik Sense & PowerBI</h1>
+            </div>
+            <div class="col-md-4 primary">
+              <h1> Optimización de logística, delivery y abastecimiento <BR>(Supply Chain optimization)</h1>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-4 warning">
+              <h1> Mejora de procesos a través de la optimización en el uso de la tecnología <BR>(ERP + Soluciones
+                específicas).</h1>
+            </div>
+            <div class="col-md-4 primary">
+              <h1> Diseño organizacional óptimo (rightsizing)</h1>
+            </div>
+            <div class="col-md-4 dark">
+              <h1> Dimensionamiento organizacional, cálculo y mejora de productividad.</h1>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+
+
 
     </div>
 
 
- 
- 
-  </div>
 
+     <!-- FORMULARIO -->     
     
-  <section class="parallax">
-    <h4>Inteligencia Comercial</h4>
 
-  </section>
+    <div class="row">
+      <div class="col-md-7 darkI"> <img class="img-fluid" src="assets/img/Qlik-img-7.jpg" alt="Qlik Sense" />
+      </div>
+      <div class="col-md-5 darkI  padding contacto">
+  
+
+        <div class="row ">
+
+          <div class="col-md-12 background_PNG darkI h-100">
+            <h4>Contacto</h4>
+            <p>¿Interesado en
+                potenciar tu negocio? </p>
+            
+            <div class="row col-md-12">
+    
+              <div class="row col-md-12">
+              
+                <div class="col-sm-6 ">
+                  <label for="firstName" class="form-label">Nombre</label>
+                  <input type="text" class="form-control" id="firstName" placeholder="" value="" required="">
+                  <div class="invalid-feedback">
+                    Valid first name is required.
+                  </div>
+                </div>
+      
+                <div class="col-sm-6 ">
+                  <label for="lastName" class="form-label">Apellido</label>
+                  <input type="text" class="form-control" id="lastName" placeholder="" value="" required="">
+                  <div class="invalid-feedback">
+                    Valid last name is required.
+                  </div>
+                </div>
+    
+                <div class="col-12 ">
+                  <label for="email" class="form-label">Email </label>
+                  <input type="email" class="form-control" id="email" placeholder="tu@mail.com">
+                  <div class="invalid-feedback">
+                    Please enter a valid email address for shipping updates.
+                  </div>
+                </div>
+        
+        
+        
+        
+                <div class="col-md-6">
+                  <label for="country" class="form-label">Pais</label>
+                  <select class="form-select" id="country" required="">
+                    <option value="">Seleccionar...</option>
+                    <option>Argentina</option>
+                  </select>
+                  <div class="invalid-feedback">
+                    Por favor seleccione su país.
+                  </div>
+                </div>
+        
+                <div class="col-md-6">
+                  <label for="state" class="form-label">Provincia</label>
+                  <select class="form-select" id="state" required="">
+                    <option value="">Seleccionar...</option>
+                    <option>Santa Fe</option>
+                  </select>
+                  <div class="invalid-feedback">
+                    Por favor seleccione su Provincia.
+                  </div>
+                </div>
+                <div class="col-md-12 ">
+           
+                  <label for="state" class="form-label">Hablenos</label>
+                  <textarea class="form-control rounded-0  " id="exampleFormControlTextarea2" rows="3"></textarea>
+                  <label for="lastName" class="form-label"><div class="form-check">
+  
+                    <input type="checkbox" class="form-check-input" id="save-info">
+                    
+                    <label class="form-check-label" for="save-info"> Acepta los terminos y condiciones.</label>
+                  </div></label>
+                  <button class="w-100 btn btn-primary btn-lg" type="submit">Enviar</button>
+                </div>
+    
+              </div>
+    
+   
+            </div>
+          </div>
+          <div class="col-md-4 dark">
+            
+          </div>
+        </div>
+
+
+
+      </div>
+      
+
+    </div>
+
+       
+        <!-- Nosotros -->
+
+
+
+      
+   
+
+
 
 
 
@@ -249,64 +551,45 @@
 
     <!-- FOOTER -->
     <footer class=" footer ">
-    
+
       <div class="row text-center">
         <div class="col align-items-center">
-          
-          <a class="navbar-brand Logo d-flex  align-items-center justify-content-center  " href="#">typo</a>
-        
-        </div>
-          <div class="col d-flex  align-items-center justify-content-center">
-      
-              <h5>Santa Fe - Argentina</h5>
-    
-          </div>
 
-          <div class="col d-flex  align-items-center justify-content-center">
-              
-            <div class="d-flex text-center align-items-end flex-column" >
-              <div class="p-2">0800-666-300</div>
-              <div class="p-2">Contáctenos</div>
-          
-            </div>
+          <a class="navbar-brand Logo d-flex  align-items-center justify-content-center  " href="#">typo</a>
+
+        </div>
+        <div class="col d-flex  align-items-center justify-content-center">
+
+
+          <h4> Santa Fe - Argentina</h4>
+
+        </div>
+
+        <div class="col d-flex  align-items-center justify-content-center">
+
+          <div class="d-flex text-center align-items-end flex-column">
+            <div class="p-2">0800-666-300</div>
+            <div class="p-2">Contáctenos</div>
+
+          </div>
 
 
 
         </div>
 
       </div>
-      
-      
-      
-    
-    
-    
+
+
+
+
+
+
     </footer>
-  
- 
 
 
-</main>
-
-
-
-    <script src="/docs/5.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
-        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
-        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
-        crossorigin="anonymous"></script>
-
-
-
-
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
 
 
 </body>
-
-
-
 
 </html>

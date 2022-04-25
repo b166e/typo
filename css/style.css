@@ -18,6 +18,9 @@
   color: white;
   font-size: 1.5rem; }
 
+.row {
+  --bs-gutter-x: 0rem; }
+
 .header {
   color: white;
   background-color: #199988;
@@ -31,16 +34,28 @@
   text-decoration: none;
   color: white; }
 
+.background_PNG {
+  background-image: url(../assets/img/page-reg-bg.png);
+  background-attachment: scroll;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
 .footer {
+  background-image: url(../assets/img/page-reg-bg.png);
+  background-attachment: scroll;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   background-color: #434343;
   font-size: 1.5rem;
-  color: #8C8C8C;
+  color: #F0F0F0;
   padding: 100px; }
   .footer .Logo {
-    color: #8C8C8C;
+    color: #F0F0F0;
     font-size: 5rem; }
 
 .navegacion {
@@ -89,18 +104,25 @@
 .padding {
   padding: 50px; }
 
+.padding-1 {
+  padding: 20px; }
+
 .primary {
   color: #fff;
   background-color: #199988;
   border-color: #199988; }
 
 .dark {
-  color: #fff;
+  color: #FCFCFC;
   background-color: #434343; }
 
 .darkI {
-  color: #434343 !important;
-  background-color: #fff; }
+  color: #FCFCFC;
+  background-color: #707070; }
+
+.darkII {
+  color: #434343;
+  background-color: #F0F0F0; }
 
 .warning {
   color: #fff;
@@ -122,7 +144,8 @@
     border-color: #434343; }
 
 .btn-outline-primary {
-  background-color: #fff; }
+  background-color: #fff;
+  color: #199988; }
   .btn-outline-primary:hover {
     color: #fff;
     background-color: #199988;
@@ -155,6 +178,13 @@
   background-position: center;
   background-repeat: no-repeat; }
 
+.subHeader {
+  background-image: url("../assets/img/Background.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 230px; }
+
 /* parallax */
 .parallax {
   background-image: url("../assets/img/Background.jpg");
@@ -162,7 +192,8 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 50px 30px; }
+  padding: 50px 50px;
+  min-height: 500px; }
   .parallax h4 {
     font-size: 4rem;
     text-align: center;
@@ -197,6 +228,9 @@
   align-items: center;
   padding: 50px; }
 
+.contacto {
+  --bs-gutter-x: 1rem; }
+
 .Video {
   font-size: 1.5rem;
   display: flex;
@@ -215,3 +249,16 @@
   display: flex;
   justify-content: space-around;
   align-items: center; }
+
+.nosotros {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  font-size: 2rem; }
+
+.mapa {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 250px; }

@@ -1,6 +1,11 @@
 $ColorPrincial:#199988;
 $ColorContraste:#f5500a;
 $ColorDark:#434343;
+$ColorDark-l: #707070;
+
+$ColorDark-2: #F0F0F0;
+$ColorDark-3: #FCFCFC;
+
 $ColorBlanco:white;
 
 
@@ -37,8 +42,10 @@ $color in $redes {
 
 
 
+.row {
+    --bs-gutter-x: 0rem;
 
-
+}
 
 .header {
     color: white;
@@ -65,12 +72,31 @@ $color in $redes {
 
 
 
+.background_PNG {
+
+    background-image: url(../assets/img/page-reg-bg.png);
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
 
 .footer {
+
+
+    background-image: url(../assets/img/page-reg-bg.png);
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
     @include flex();
     background-color: $ColorDark;
     font-size: 1.5rem;
-    color: #8C8C8C;
+    color: $ColorDark-2;
 
     padding: 100px;
 
@@ -78,7 +104,7 @@ $color in $redes {
 
 
 
-        color: #8C8C8C;
+        color: $ColorDark-2;
         font-size: 5rem;
     }
 
@@ -158,6 +184,12 @@ $color in $redes {
 }
 
 
+.padding-1 {
+    padding: 20px;
+}
+
+
+
 
 
 
@@ -168,14 +200,21 @@ $color in $redes {
 }
 
 .dark {
-    color: #fff;
+    color: #FCFCFC;
     background-color: $ColorDark;
 }
 
 .darkI {
-    color: $ColorDark !important;
-    background-color: #fff;
+    color: #FCFCFC;
+    background-color: $ColorDark-l;
 }
+
+.darkII {
+    color: $ColorDark;
+    background-color: $ColorDark-2;
+}
+
+
 
 .warning {
     color: #fff;
@@ -222,6 +261,8 @@ $color in $redes {
 .btn-outline-primary {
     @extend .boton;
     background-color: #fff;
+    
+    color: $ColorPrincial;
 
 
     &:hover {
@@ -297,6 +338,16 @@ $color in $redes {
 
 
 
+.subHeader {
+    background-image: url("../assets/img/Background.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+
+    background-repeat: no-repeat;
+    min-height: 230px;
+
+}
+
 
 /* parallax */
 
@@ -306,8 +357,8 @@ $color in $redes {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 50px 30px;
-
+    padding: 50px 50px;
+    min-height: 500px;
 
     h4 {
         font-size: 4rem;
