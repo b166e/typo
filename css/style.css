@@ -179,11 +179,13 @@
   background-repeat: no-repeat; }
 
 .subHeader {
-  background-image: url("../assets/img/Background.jpg");
+  background-image: url("../assets/img/Background_2.jpg");
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 230px; }
+  .subHeader .subHeaderIndex {
+    background-image: url("assets/img/Background_2.jpg"); }
 
 /* parallax */
 .parallax {
