@@ -47,6 +47,10 @@ $color in $redes {
 
 }
 
+
+
+
+
 .header {
     color: white;
     background-color: $ColorPrincial;
@@ -337,7 +341,6 @@ $color in $redes {
 }
 
 
-
 .subHeader {
     background-image: url("../assets/img/Background.jpg");
     background-attachment: fixed;
@@ -346,7 +349,13 @@ $color in $redes {
     background-repeat: no-repeat;
     min-height: 230px;
 
+    .subHeaderIndex {
+        background-image: url("assets/img/Background.jpg");
+    
+    }
+
 }
+
 
 
 /* parallax */
