@@ -21,6 +21,11 @@
 .row {
   --bs-gutter-x: 0rem; }
 
+.blanco {
+  color: white; }
+  .blanco:hover {
+    color: #f5500a; }
+
 .header {
   color: white;
   background-color: #199988;
@@ -32,7 +37,9 @@
 .Logo {
   font-family: "Lobster";
   text-decoration: none;
-  color: white; }
+  font-size: 2rem;
+  color: white;
+  align-items: center; }
 
 .background_PNG {
   background-image: url(../assets/img/page-reg-bg.png);
@@ -47,16 +54,19 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  text-decoration: none;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   background-color: #434343;
   font-size: 1.5rem;
   color: #F0F0F0;
-  padding: 100px; }
+  padding: 55px; }
   .footer .Logo {
     color: #F0F0F0;
-    font-size: 5rem; }
+    font-size: 3rem; }
+  .footer .a {
+    text-decoration: none; }
 
 .navegacion {
   text-decoration: none;
@@ -154,6 +164,19 @@
 .btn-outline-primary .rounded-3 {
   border-radius: 0rem !important; }
 
+.blanco {
+  color: white; }
+
+.blanco:hover {
+  color: #f5500a; }
+
+.firma {
+  color: #707070;
+  font-size: 0.9rem; }
+
+.blanco:hover {
+  color: white; }
+
 .btn-lg {
   padding: 0.5rem 1rem;
   font-size: 1.25rem;
@@ -162,9 +185,10 @@
     background-color: #434343; }
 
 /* Header */
-.nav-link {
-  color: #fff; }
-  .nav-link:hover {
+.navbar {
+  color: #fff;
+  font-size: 1.25rem; }
+  .navbar:hover {
     color: #f5500a; }
 
 .carousel-control-prev {
@@ -183,7 +207,7 @@
   background-attachment: inherit;
   background-size: cover;
   background-repeat: no-repeat;
-  min-height: 230px; }
+  min-height: 11rem; }
   .subHeader .subHeaderIndex {
     background-image: url("assets/img/Background_2.jpg"); }
 

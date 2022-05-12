@@ -49,7 +49,14 @@ $color in $redes {
 
 
 
-
+.blanco {
+    color: white;
+    &:hover {
+        color: $ColorContraste;
+        
+      }
+    
+}
 
 .header {
     color: white;
@@ -63,8 +70,9 @@ $color in $redes {
 .Logo {
     font-family: "Lobster";
     text-decoration: none;
-
+    font-size: 2rem;
     color: white;
+    align-items: center;
 }
 
 
@@ -95,21 +103,28 @@ $color in $redes {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
+    text-decoration: none;
+    
+ 
 
     @include flex();
     background-color: $ColorDark;
     font-size: 1.5rem;
     color: $ColorDark-2;
 
-    padding: 100px;
+    padding: 55px;
 
     .Logo {
 
 
 
         color: $ColorDark-2;
-        font-size: 5rem;
+        font-size: 3rem;
+    }
+
+    .a {
+
+        text-decoration: none;
     }
 
 
@@ -286,7 +301,17 @@ $color in $redes {
 
 
 
-
+.blanco {
+    color: white; }
+    .blanco:hover {
+      color: #f5500a; }
+  
+  
+  .firma {
+    color: $ColorDark-l;
+    font-size: 0.9rem; }
+    .blanco:hover {
+      color: white; }
 
 
 .btn-lg {
@@ -302,11 +327,12 @@ $color in $redes {
 
 /* Header */
 
-.nav-link {
+.navbar {
     color: #fff;
-
+    font-size: 1.25rem;
     &:hover {
         color: $ColorContraste;
+        
     }
 }
 
@@ -347,7 +373,7 @@ $color in $redes {
     background-size: cover;
 
     background-repeat: no-repeat;
-    min-height: 230px;
+    min-height: 11rem;;
 
     .subHeaderIndex {
         background-image: url("assets/img/Background_2.jpg");
